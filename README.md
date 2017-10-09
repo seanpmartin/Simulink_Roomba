@@ -1,7 +1,47 @@
 # Simulink_Roomba
 # ECE 4422 Project #1
 # Sean Martin 
-Start Matlab and type the below into the command window
+
+Download the below zipped file. Unzip the folder into 
+your MATLAB folder. Add the folder to the Matlab search path by running
+the following in the Matlab command window, changing
+yourpath to your specific path.
 ```
->>simulink
+>>>addpath(genpath('yourpath/Matlab/martin_project1'))
 ```
+The below Matlab and Simulink dependencies are needed.
+Download the Real Time Pacer Block in the Add-On
+Explorer in MATLAB.
+```
+Add-Ons -> Get Add-Ons -> Real-Time Pacer for Simulink
+```
+Download the Matlab Toolbox for the iRobot Create 2 in the Add-On 
+Explorer in MATLAB. 
+```
+Add-Ons -> Get Add-Ons -> Matlab Toolbox for the iRobot Create 2
+```
+
+The WiFi module used here is RooWiFi. Proceed to the link 
+below and set up the module. Page 9 contains set-up info for the 
+RooWiFi module. 
+```
+http://www.roowifi.com/wp-content/uploads/RwRemote_User_Guide_v2_rev15.pdf
+```
+Point your web browser to 10.0.0.1 to verify the connection with
+the RooWiFi module.
+```
+10.0.0.1
+```
+Type the below command into the Matlab command window to open
+Simulink
+```
+>>>simulink
+```
+Open the sample .slx file provided. 
+```
+SampleWIFI.slx
+```
+This file will run the 6 range sensors on the Roomba,
+check battery percentage and temperature sensor as well
+as set the wheel speeds (defaults to spinning the Roomba in 
+a circle)
