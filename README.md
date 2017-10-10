@@ -20,7 +20,11 @@ Explorer in MATLAB.
 ```
 Add-Ons -> Get Add-Ons -> Matlab Toolbox for the iRobot Create 2
 ```
-
+A WiFi module is needed to connect to the Roomba via WiFi.
+Use the WiFi Scanner program at the below link to do this.
+```
+http://download.lizardsystems.com/wifiscanner_setup.exe
+```
 The WiFi module used here is RooWiFi. Proceed to the link 
 below and set up the module. Page 9 contains set-up info for the 
 RooWiFi module. 
