@@ -37,8 +37,10 @@ Simulink
 ```
 >>>simulink
 ```
-Open the sample .slx file provided. 
+Open the sample .slx file provided. Be sure to open the library file too 
+so the Sample file can find the block references.
 ```
+martin_sean_RoombaLib
 SampleWIFI.slx
 ```
 This file will run the 6 range sensors on the Roomba,
