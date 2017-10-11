@@ -50,4 +50,6 @@ SampleWIFI.slx
 This file will run the 6 range sensors on the Roomba,
 check battery percentage and temperature sensor as well
 as set the wheel speeds (defaults to spinning the Roomba in 
-a circle)
+a circle). See below YouTube video for a demo.
+
+[linkname](https://www.youtube.com/watch?v=0nQMwHtMGac)
